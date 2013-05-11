@@ -22,7 +22,7 @@ require.config({
 });
 
 require([
-    'backbone'
+    'backbone', 'jquery.lister'
 ], function (Backbone) {
     Backbone.history.start();
 });
